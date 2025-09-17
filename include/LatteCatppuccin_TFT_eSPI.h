@@ -1,0 +1,27 @@
+/*=============Latte==============*/
+#define CATPPUCCIN_ROSEWATER 0xdc4f
+#define CATPPUCCIN_FLAMINGO  0xdbcf
+#define CATPPUCCIN_PINK      0xebb9
+#define CATPPUCCIN_MAUVE     0x89dd
+#define CATPPUCCIN_RED       0xd067
+#define CATPPUCCIN_MAROON    0xe22a
+#define CATPPUCCIN_PEACH     0xfb21
+#define CATPPUCCIN_YELLOW    0xdc63
+#define CATPPUCCIN_GREEN     0x4505
+#define CATPPUCCIN_TEAL      0x1493
+#define CATPPUCCIN_SKY       0x53c
+#define CATPPUCCIN_SAPPHIRE  0x24f6
+#define CATPPUCCIN_BLUE      0x1b3e
+#define CATPPUCCIN_LAVENDER  0x743f
+#define CATPPUCCIN_TEXT      0x4a6d
+#define CATPPUCCIN_SUBTEXT1  0x5aee
+#define CATPPUCCIN_SUBTEXT0  0x6b70
+#define CATPPUCCIN_OVERLAY2  0x7bf2
+#define CATPPUCCIN_OVERLAY1  0x8c74
+#define CATPPUCCIN_OVERLAY0  0x9d16
+#define CATPPUCCIN_SURFACE2  0xad97
+#define CATPPUCCIN_SURFACE1  0xbe19
+#define CATPPUCCIN_SURFACE0  0xce9b
+#define CATPPUCCIN_BASE      0xef9e
+#define CATPPUCCIN_MANTLE    0xe75d
+#define CATPPUCCIN_CRUST     0xdf1d
