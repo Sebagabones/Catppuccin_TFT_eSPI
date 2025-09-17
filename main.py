@@ -1,11 +1,9 @@
 # basically wrap around this https://stackoverflow.com/a/27194892
 import pathlib
-import pprint
 from dataclasses import fields
 
 from catppuccin import PALETTE
 from catppuccin.models import RGB
-from catppuccin.models import Color as Colour
 from catppuccin.models import Flavor as Flavour
 
 ctpLatte = PALETTE.latte
@@ -24,7 +22,7 @@ def convertRGBto565(colour: RGB) -> int:
     return result
 
 
-def writeAllColoursToFile(filename: pathlib.Path):
+def writeAllColoursToFile(filename: pathlib.Path) -> None:
     """Writes all the colours from all the flavours to a file
     This is useful for if you want multiple flavours at the same time
 
@@ -52,7 +50,7 @@ def writeAllColoursToFile(filename: pathlib.Path):
     file.close()
 
 
-def writeColoursToFile(filename: pathlib.Path, flavour: Flavour):
+def writeColoursToFile(filename: pathlib.Path, flavour: Flavour) -> None:
     """Writes colours into a file per flavour
     Writes the flavours into a file named `{flavour}_Catppuccin_TFT_eSPI.h` -
     good for if you want to reuse colour names and only use one flavour at a
@@ -82,7 +80,7 @@ def writeColoursToFile(filename: pathlib.Path, flavour: Flavour):
     file.close()
 
 
-def main():
+def main() -> None:
     writeAllColoursToFile(pathlib.Path("include/") / "AllFlavoursCatppuccin_TFT_eSPI.h")
     for flavour in flavours:
         filename = f"{flavour.identifier.capitalize()}Catppuccin_TFT_eSPI.h"
