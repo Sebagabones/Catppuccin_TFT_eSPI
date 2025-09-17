@@ -14,6 +14,25 @@ flavours = [ctpLatte, ctpFrappe, ctpMacchiato, ctpMocha]
 
 
 def convertRGBto565(colour: RGB) -> int:
+    """Converts from RGB to 565 format
+
+    Converts a Catppuccin Colour (in RGB format) to 565 format.
+
+    Parameters
+    ----------
+    colour : RGB
+        Catppuccin Color.RGB
+
+    Returns
+    -------
+    int
+        Integer representation of input colour in 565 format
+
+    Examples
+    --------
+    FIXME: Add docs.
+
+    """
     r, g, b = colour.r, colour.g, colour.b
     red = r >> 3
     green = g >> 2
