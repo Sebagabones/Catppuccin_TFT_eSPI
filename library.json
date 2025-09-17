@@ -1,0 +1,25 @@
+{
+  "name": "Catppuccin_TFT_eSPI",
+  "version": "0.0.2",
+  "description": "Catppuccin Colours for the TFT_eSPI library",
+  "keywords": "extension, tft_eSPI, catppuccin",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Sebagabones/Catppuccin_TFT_eSPI.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Sebagabones",
+      "email": "133339614+Sebagabones@users.noreply.github.com",
+      "url": "https://mahoosively.gay"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Sebagabones/Catppuccin_TFT_eSPI",
+  "dependencies": {
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}
